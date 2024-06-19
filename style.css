@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+header{
+    background-color: black;
+    padding: 10px;
+    width: auto;
+    height: 40px;
+    display: flex;
+    flex-flow: row wrap;
+    position: relative;
+    gap: 5px;
+    
+}
+button{
+    width: 60px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background: rgba(128, 128, 128, 0.644);
+}
+button:hover{
+    opacity: 0.8;
+}
+#sign-up{
+    background-color: rgb(45, 248, 45);
+    color: black;
+}
+#view-in-editor{
+    width: 50px;
+}
+section{
+    background-color: #282846;
+    display: flex;
+    color: #adadb9;
+    align-items: center;
+    justify-content: center;
+    width: 483px;
+    margin: auto;
+    font-size: 20px;
+}
+label{
+    justify-content: center;
+}

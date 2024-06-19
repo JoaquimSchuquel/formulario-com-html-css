@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" media="all">
+    <!-- projeto baseado no site neste link https://codepen.io/freeCodeCamp/full/VPaoNP-->
+</head>
+<body>
+    <header>
+      <button id="view-in-editor"></button>
+      <button id="sign-up">Sign Up</button>
+      <button >Log In</button>
+    </header>
+    <section>
+      <div>
+        <form action="" method="post">
+
+        <label for="name">Name</label><br>
+        <input type="text" name="name" id="name"><br>
+
+        <label for="email">Email</label><br>
+        <input type="email" name="email" id="email"><br>
+
+        <label for="age">Age(optional)</label><br>
+        <input type="number" name="age" id="age"><br>
+
+        <label for="current-role">Which option best describes your current role</label><br>
+        <select name="current-role" id="current-role">
+          <option value="student">Student</option>
+          <option value="full-time-job">Full Time Job</option>
+          <option value="full-time-learner">Full Time Learner</option>
+          <option value="prefer-not-to-say">Prefer Not To Say</option>
+          <option value="other">Other</option>
+        </select><br>
+
+        <p>Would you recommend freeCodeCamp to a friend?<br> </p>
+        <label for="radio">definetely</label>
+        <input type="radio" name="radio" id="radio1"><br>
+        <label for="radio">Maybe</label>
+        <input type="radio" name="radio" id="radio2"><br>
+        <label for="radio">Not sure</label>
+        <input type="radio" name="radio" id="radio3"><br>
+
+        <label for="favorite-feature">What is your favorite feature of freeCodeCamp?</label><br>
+        <select name="favorite-feature" id="favorite-feature">
+          <option value="challenges">Challenges</option>
+          <option value="projects">Projects</option>
+          <option value="community">Community</option>
+          <option value="open-source">Open Source</option>
+        </select><br><br>
+
+        <p>What would you like to see improved? <br>(Check all that apply)</p>
+        <input type="checkbox" name="front-end-projects" id="front-end-projects">
+        <label for="front-end-projects">Front End Projects</label><br>
+        <input type="checkbox" name="back-end-projects" id="back-end-projects">
+        <label for="back-end-projects">Back End Projects</label><br>
+        <input type="checkbox" name="data-visualization" id="data-visualization">
+        <label for="data-visualization">Data visualization</label><br>
+        <input type="checkbox" name="challenges" id="challenges">
+        <label for="challenges">Challenges</label><br>
+        <input type="checkbox" name="open-source-community" id="open-source-community">
+        <label for="open-source-community">Open Source Community</label><br>
+        <input type="checkbox" name="gitter-help-rooms" id="gitter-help-rooms">
+        <label for="gitter-help-rooms">Gitter Help Rooms</label><br>
+        <input type="checkbox" name="videos" id="videos">
+        <label for="videos">Videos</label><br>
+        <input type="checkbox" name="city-meetups" id="city-meetups">
+        <label for="city-meetups">City Meetups</label><br>
+        <input type="checkbox" name="wiki" id="wiki">
+        <label for="wiki">Wiki</label><br>
+        <input type="checkbox" name="forum" id="forum">
+        <label for="forum">Forum</label><br>
+        <input type="checkbox" name="additional-courses" id="additional-courses">
+        <label for="additional-courses">Additional Courses</label><br>
+
+        <p>Any comments or suggestions?</p>
+        <textarea name="suggestions" id="suggestions" cols="40" rows="4"></textarea><br>
+        
+        <input type="reset" value="apagar">
+        <input type="submit" value="enviar">
+      </form>
+      </div>
+    </section>
+    <footer>
+    </footer>
+</body>
+</html>
