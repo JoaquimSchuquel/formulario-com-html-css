@@ -18,16 +18,16 @@
         <form action="" method="post">
 
         <label for="name">Name</label><br>
-        <input type="text" name="name" id="name"><br><br>
+        <input type="text" name="name" id="name" required><br><br>
 
         <label for="email">Email</label><br>
-        <input type="email" name="email" id="email"><br><br>
+        <input type="email" name="email" id="email" required><br><br>
 
         <label for="age">Age(optional)</label><br>
         <input type="number" name="age" id="age"><br><br>
 
-        <label for="current-role"><h3>Which option best describes your current role</h3></label>
-        <select name="current-role" id="current-role">
+        <label for="current-role">Which option best describes your current role</label>
+        <select name="current-role" id="current-role" required>
           <option value="student">Student</option>
           <option value="full-time-job">Full Time Job</option>
           <option value="full-time-learner">Full Time Learner</option>
@@ -35,7 +35,7 @@
           <option value="other">Other</option>
         </select><br><br>
 
-        <h3>Would you recommend freeCodeCamp to a friend?</h3>
+        <p>Would you recommend freeCodeCamp to a friend?</p>
         <label for="radio">definetely</label>
         <input type="radio" name="radio" id="radio1"><br>
         <label for="radio">Maybe</label>
@@ -43,7 +43,7 @@
         <label for="radio">Not sure</label>
         <input type="radio" name="radio" id="radio3"><br><br>
 
-        <label for="favorite-feature"><h3>What is your favorite feature of freeCodeCamp?</h3></label>
+        <label for="favorite-feature">What is your favorite feature of freeCodeCamp?</label>
         <select name="favorite-feature" id="favorite-feature">
           <option value="challenges">Challenges</option>
           <option value="projects">Projects</option>
